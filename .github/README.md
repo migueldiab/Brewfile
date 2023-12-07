@@ -1,8 +1,8 @@
 
-<h1 align="center">Lissy93/Brewfile</h1>
+<h1 align="center"> ~Lissy93~ Miguel's/Brewfile</h1>
 <p align="center"><i>My list of *nix packages to be installed on MacOS via Homebrew, for the ultimate dev setup</i></p>
 <p align="center">
-  <a href="https://github.com/lissy93/brewfile/">
+  <a href="https://github.com/migueldiab/brewfile/">
     <img width="120" src="https://i.ibb.co/LhhDNg7/brewfile-repo-logo.png" />
   </a>
 </p>
@@ -12,7 +12,7 @@
 
 
 
-To get started, install [Homebrew](https://docs.brew.sh/Installation), then just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, and run `brew bundle --global` to install the listed packages. Done 🍻
+To get started, install [Homebrew](https://docs.brew.sh/Installation), then just download the [`Brewfile`](https://github.com/migueldiab/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, and run `brew bundle --global` to install the listed packages. Done 🍻
 
 ---
 
@@ -29,8 +29,8 @@ bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
 </p>
 
 >  [!NOTE]
-> To keep track of your own personal package list [fork](https://github.com/Lissy93/Brewfile/fork) this repo<br>
-> And don't forget to replace [lissy93] with your own username!
+> To keep track of your own personal package list [fork](https://github.com/migueldiab/Brewfile/fork) this repo<br>
+> And don't forget to replace [migueldiab] with your own username!
 
 ---
 

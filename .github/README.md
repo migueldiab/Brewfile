@@ -1,5 +1,5 @@
 
-<h1 align="center"> ~Lissy93~ Miguel's/Brewfile</h1>
+<h1 align="center"> <strike>Lissy93</strike> Miguel's/Brewfile</h1>
 <p align="center"><i>My list of *nix packages to be installed on MacOS via Homebrew, for the ultimate dev setup</i></p>
 <p align="center">
   <a href="https://github.com/migueldiab/brewfile/">

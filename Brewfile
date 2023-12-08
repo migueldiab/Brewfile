@@ -92,6 +92,8 @@ brew 'watch'        # Run commands periorically
 # brew 'rclone'       # Manage cloud storage
 # brew 'task'         # Todo + task management
 brew 'ddgr'         # Web search, via DuckDuckGo
+brew 'the_silver_searcher'
+cask 'foxitreader'
 cask 'libreoffice'
 cask 'maccy'
 
@@ -200,7 +202,6 @@ cask 'vlc'          # Media player
 # cask '1password'      # Password manager (proprietary)
 # cask 'tresorit'       # Encrypted file backup (proprietary)
 # cask 'standard-notes' # Encrypted synced notes
-# cask 'signal'         # Link to encrypted mobile messenger
 # cask 'ledger-live'    # Crypto hardware wallet manager
 # cask 'mountain-duck'  # Mount remote storage locations
 # cask 'protonmail-bridge' # Decrypt ProtonMail emails
@@ -208,6 +209,8 @@ cask 'vlc'          # Media player
 # cask 'vorta'          # GUI for BorgBackup
 cask 'dropbox'
 cask 'macpass'
+cask 'signal'         # Link to encrypted mobile messenger
+cask 'tutanota'
 
 # Browsers
 # cask 'chromium'

@@ -36,9 +36,12 @@ tap 'koekeishiya/formulae'
 brew 'git'          # Version controll
 brew 'neovim'       # Text editor
 brew 'tmux'         # Term multiplexer
+brew 'mas'
+brew 'lsd'
+brew 'fish'
 
 # CLI Basics
-# brew 'broot'        # Interactive directory navigation
+brew 'broot'        # Interactive directory navigation
 # brew 'ctags'        # Indexing of file info + headers
 # brew 'duf'          # Get info on mounted disks (better df)
 # brew 'entr'         # Run command whenever file changes
@@ -58,14 +61,14 @@ brew 'tmux'         # Term multiplexer
 # brew 'xsel'         # Copy paste access to the X clipboard
 # brew 'zoxide'       # Auto-learning navigation (better cd)
 brew 'gnupg' if OS.mac?
-brew 'aria2'        # Resuming download util (better wget)
+# brew 'aria2'        # Resuming download util (better wget)
 brew 'bat'          # Output highlighting (better cat)
 brew 'diff-so-fancy'# Readable file compares (better diff)
-brew 'most'         # Multi-window scroll pager (better less)
+# brew 'most'         # Multi-window scroll pager (better less)
 brew 'tldr'         # Community-maintained docs (better man)
-brew 'tokei'        # Count lines of code (better cloc)
+# brew 'tokei'        # Count lines of code (better cloc)
 brew 'tree'         # Directory listings as tree structure
-brew 'watch'        # Run commands periorically
+# brew 'watch'        # Run commands periorically
 
 
 # CLI Monitoring and Performance Apps
@@ -91,7 +94,7 @@ brew 'watch'        # Run commands periorically
 # brew 'pass'         # Password store
 # brew 'rclone'       # Manage cloud storage
 # brew 'task'         # Todo + task management
-brew 'ddgr'         # Web search, via DuckDuckGo
+# brew 'ddgr'         # Web search, via DuckDuckGo
 brew 'the_silver_searcher'
 cask 'foxitreader'
 cask 'libreoffice'
@@ -138,13 +141,14 @@ cask 'iterm2'         # Better terminal emulator
 # brew 'rust'           # Rust language
 # cask 'android-sdk'    # Android software dev kit
 brew 'gcc'            # GNU C++ compilers
-brew 'go'             # Compiler for Go Lang
+# brew 'go'             # Compiler for Go Lang
 brew 'openjdk'        # Java development kit
 brew 'python'         # Python interpreter
 
 # DevOps
 # brew 'ansible'        # Automation
 # brew 'docker'         # Containers
+brew 'stow'             # Symlink farm manager
 
 # Development Utils
 # brew 'gh'             # Interact with GitHub PRs, issues, repos
@@ -153,7 +157,7 @@ brew 'python'         # Python interpreter
 # brew 'watchman'       # Watch for changes and reload dev server
 brew 'git-extras'     # Extra git commands for common tasks
 brew 'tig'            # Text-mode interface for git
-brew 'ttygif'         # Generate GIF from terminal commands + output
+# brew 'ttygif'         # Generate GIF from terminal commands + output
 
 # Network and Security Testing
 # brew 'bettercap'      # Network, scanning and monitoring
@@ -161,7 +165,7 @@ brew 'ttygif'         # Generate GIF from terminal commands + output
 # brew 'wrk'            # HTTP benchmarking
 # cask 'burp-suite'     # Web security testing
 # cask 'owasp-zap'      # Web app security scanner
-cask 'wireshark'      # Network analyzer + packet capture
+# cask 'wireshark'      # Network analyzer + packet capture
 
 # Security Utilities and Data Encryption
 # brew 'borgbackup'     # Encrypted, deduplicated backups
@@ -171,8 +175,8 @@ cask 'wireshark'      # Network analyzer + packet capture
 # brew 'rkhunter'       # Search / detect potential root kits
 # cask 'gpg-suite'      # PGP encryption for emails and files
 # cask 'veracrypt'      # File and volume encryption
-brew 'bcrypt'         # Encryption utility, using blowfish
-brew 'clamav'         # Open source virus scanning suite
+# brew 'bcrypt'         # Encryption utility, using blowfish
+# brew 'clamav'         # Open source virus scanning suite
 brew 'openssl'        # Cryptography and SSL/TLS Toolkit
 
 #############################################################
@@ -184,15 +188,15 @@ brew 'openssl'        # Cryptography and SSL/TLS Toolkit
 # cask 'inkscape'     # Vector editor
 # cask 'obs'          # Screencasting / recording
 # cask 'shotcut'      # Video editor
-cask 'audacity'     # Audio editor / recorder
+# cask 'audacity'     # Audio editor / recorder
 cask 'gimp'         # Photo editor
-cask 'telegram'
+# cask 'telegram'
 cask 'whatsapp'
 
 # Media
 # cask 'spotify', args: { require_sha: false } # Propietary music streaming
 # cask 'transmission' # Torrent client
-brew 'pandoc'       # Universal file converter
+# brew 'pandoc'       # Universal file converter
 brew 'youtube-dl'   # YouTube video downloader
 cask 'amazon-music'
 cask 'calibre'      # E-Book reader
@@ -207,10 +211,11 @@ cask 'vlc'          # Media player
 # cask 'protonmail-bridge' # Decrypt ProtonMail emails
 # cask 'protonvpn'      # Client app for ProtonVPN
 # cask 'vorta'          # GUI for BorgBackup
-cask 'dropbox'
+# cask 'dropbox'
 cask 'macpass'
-cask 'signal'         # Link to encrypted mobile messenger
+# cask 'signal'         # Link to encrypted mobile messenger
 cask 'tutanota'
+brew 'syncthing' 
 
 # Browsers
 # cask 'chromium'
@@ -224,9 +229,9 @@ cask 'firefox'
 # Fonts
 # cask 'font-inconsolata'
 cask 'font-consolas-for-powerline' 
-cask 'font-fira-code'
-cask 'font-hack'
-cask 'font-meslo-lg-nerd-font'
+# cask 'font-fira-code'
+# cask 'font-hack'
+# cask 'font-meslo-lg-nerd-font'
 
 # Mac OS Quick-Look Plugins
 # cask 'qlcolorcode'    # QL for code with highlighting
@@ -255,17 +260,17 @@ cask 'font-meslo-lg-nerd-font'
 # cask 'popclip'        # Popup options for text on highlight
 # cask 'raycast', args: { require_sha: false }  # Spotlight alternative
 # cask 'santa'          # Binary authorization for security
-cask 'alfred'
+# cask 'alfred'
 cask 'alt-tab'        # Much better alt-tab window switcher
 cask 'clocker'
 cask 'hiddenbar'      # Hide / show annoying menubar icons
 cask 'rectangle'
 cask 'shottr'         # Better screenshot utility
-cask 'stats'          # System resource usage in menubar
+# cask 'stats'          # System resource usage in menubar
 
 # Mac OS Utility Apps
 # cask 'coteditor'      # Just a simple plain-text editor
-cask 'little-snitch'  # Firewall app viewing / blocking traffic
+# cask 'little-snitch'  # Firewall app viewing / blocking traffic
 cask 'keka'           # File archiver and extractor
 cask 'sublime-text'
 
